@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1">
+    <item
+        android:id="@+id/addlabel"
+        android:title="@string/addlabel"
+        android:icon="@drawable/baseline_label_24"/>
+
+    <item android:id="@+id/addphoto"
+        android:title="@string/addphoto"
+        android:icon="@drawable/baseline_add_a_photo_24"/>
+
+    <item android:id="@+id/gallery"
+        android:title="@string/gallery"
+        android:icon="@drawable/baseline_photo_library_24"/>
+
+    <item android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@drawable/baseline_info_24"/>
+
+
+    </group>
+
+    <group
+        android:id="@+id/group2">
+
+        <item android:id="@+id/logout"
+            android:title="@string/logout"
+            android:icon="@drawable/baseline_exit_to_app_24"/>
+
+    </group>
+
+</menu>

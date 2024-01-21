@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen">
+
+    <ImageView
+        android:id="@+id/logoİmageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/splashnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="202013709060"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/logoİmageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/splashname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Busecan Soydan"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/splashnumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@+id/splashname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_below="@+id/loginbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

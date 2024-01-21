@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="addlabel">AddLabel</string>
+    <string name="addphoto">AddPhoto</string>
+    <string name="gallery">Gallery</string>
+    <string name="about">About</string>
+    <string name="logout">LogOut</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="select_label_prompt">Etiketi Seç</string>
+
+</resources>
